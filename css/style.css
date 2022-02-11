@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-Oct-2020, 01:20:48
+    Author     : tomas
+*/
+
+body{
+    background:url("image1.jpg");  
+    background-size:1400px;
+    background-attachment:fixed;
+}
+
+#regform {
+   background-color: #CCFF99;
+   height:600px;
+   width:600px;
+   opacity: 0.8;
+   border-bottom-left-radius:30px;
+   border-top-right-radius:30px;
+}
+
+#nameTxtFld{
+   display: inline;
+	float: left;
+	padding:left;
+	padding-left: 50px;
+}
+
+#surnameTxtFld{
+display: inline;
+	float:right;
+	padding:right;
+	padding-right:50px;
+}
+
+#clientDobDaySelect{
+display: inline;
+	float: left;
+	padding:left;
+	padding-left: 50px;
+}
+
+#clientDobMonthSelect{
+display:inline;
+	float:left;
+	padding:left;
+	padding-left:15px;
+}
+
+#clientDobYearSelect{
+display:inline;
+	float:left;
+	padding:left;
+	padding-left:15px;
+}
+#radioButtons{
+    display:inline;
+    float:right;
+    padding:right;
+    padding-right:50px;
+}
+
+#countrySelection{
+    display:inline;
+    float:left;
+    padding:left;
+    padding-left:50px;
+}
+
+#clientAddressTxtFld{
+display: inline;
+	float:right;
+	padding:right;
+	padding-right:50px;
+}
+
+#clientEmailAddress{
+  display:inline;
+	float:left;
+	padding:left;
+	padding-left:50px;
+}
+
+#clientPhoneNo{
+  display:inline;
+	float:right;
+	padding:right;
+	padding-right:50px;
+}
+
+#usernameTxtFld{
+display:inline;
+float:left;
+padding:left;
+padding-left:50px;
+}
+
+#clientPassword{
+  display:inline;
+	float:right;
+	padding:right;
+	padding-right:50px;
+}
+
+#clientPassword2{
+display:inline;
+	float:left;
+	padding:left;
+	padding-left:50px;
+}

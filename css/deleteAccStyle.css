@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-Jan-2021, 13:11:34
+    Author     : tomas
+*/
+
+body{
+background:url("sanfranciscoatnight_1920x1080.jpeg");
+	background-attachment:fixed;
+background-size:1367px 640px;
+}
+
+#deleteAccText{
+background-color:#FFFF99;
+	width: 600px;
+	height:60px;
+	margin:0px;
+	font-size:40px;
+	border-top-left-radius:15px;
+		border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	opacity: 0.4;
+}
+#deleteAccForm{
+background-color: #FFFF99;
+	width:600px;
+	height:350px;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	opacity: 0.4;
+}
+#usernameTxtFld{
+position:absolute;
+	right:580px;
+	top:150px;
+}
+
+#pwdTxtFld{
+position:absolute;
+	right:580px;
+	top:220px;
+}
+#confPwdTxtFld{
+position:absolute;
+	right:580px;
+	top:290px;
+}
+
+#removeAccButton{
+position:absolute;
+	left:600px;
+	top:360px;
+}

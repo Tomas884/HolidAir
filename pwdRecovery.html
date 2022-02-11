@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>HolidAir: Password Recovery</title>
+		<link href="css/pwdRecoveryStyle.css" rel="stylesheet" type="text/css"/>
+                <script src="js/pwdRecovValidation.js"></script>
+    
+	<center>
+	<body>
+	<br/>
+	<div id="pwdRecoveryForm">
+	<div class="main">
+	<div class="container">
+	<form name="pwdRecoveryForm" action="#" onsubmit="return validateForm()" method="post">
+	<br/>
+	<h1>Password Recovery</h1>
+	</head>
+    <body>
+	<div id="emailTxtFld"><input type="text" id="emailAddress" name="emailAddress" placeholder="Email"></div>
+	<br/><br/>
+	<div id="newPwdTxtFld"><input type="password" id="newPassword" name="newPassword" placeholder="New Password"></div>
+	<br/><br/>
+	<div id="rptNewPwdTxtFld"><input type="password" id="rptNewPassword" name="rptNewPassword" placeholder="Re-enter New Password"></div>
+        <br/><br/><br/><br/>
+		<button class="rcwPwd">Recover Password</button>
+		</center>
+</form>
+    </body>
+</html>

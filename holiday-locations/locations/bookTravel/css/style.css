@@ -1,0 +1,132 @@
+body {
+background-color:#CCCCCC;
+background-attachment:fixed;
+}
+
+header{
+width: 1200px;
+height:100px;
+background-color:#009966;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+
+footer {
+width: 1200px;
+height: 30px;
+background-color:#009966;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+#headerText {
+position: absolute;
+top:5px;
+right:600px;
+font-size:40px;
+}
+
+#bookingArea {
+width: 1200px;
+height: 500px;
+background-color:#009966;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+#copyrightText {
+position: absolute;
+top:650px;
+left: 100px;
+}
+
+#departReturnDatesArea {
+position: absolute;
+width: 1000px;
+height: 400px;
+background-color:#FFFFFF;
+top: 200px;
+left: 170px;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+border-bottom-left-radius:10px;
+border-bottom-right-radius:10px;
+}
+
+#departCalendar {
+position:absolute;
+top:120px;
+left: 200px;
+}
+
+#departCalendarLbl {
+position:absolute;
+top:80px;
+left:220px;
+}
+
+#returnCalendar {
+position:absolute;
+top:120px;
+left:650px;
+}
+
+#returnCalendarLbl {
+position:absolute;
+top:80px;
+left:670px;
+}
+
+#departReturnHeading {
+position:absolute;
+top:5px;
+left:280px
+}
+
+#passengersHeading {
+position:absolute;
+top:170px;
+left:410px;
+}
+
+#adultPassangersLbl {
+position:absolute;
+top:250px;
+left:220px;
+}
+
+#childrenPassangersLbl {
+position:absolute;
+top:250px;
+right:270px;
+}
+
+#adultsNumbSelect {
+position:absolute;
+top:290px;
+left:210px;
+}
+
+#childrenNumbSelect {
+position:absolute;
+top:290px;
+right:270px;
+}
+
+#radioBtns {
+position:absolute;
+top:79px;
+left:370px;
+}
+
+#bookNowBtn {
+position:absolute;
+top:350px;
+left:420px;
+}

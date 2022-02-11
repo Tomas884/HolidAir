@@ -1,0 +1,17 @@
+body{
+   background:url("MHYJuC.jpg");
+	background-attachment:fixed;
+	background-size:1400px 650px;
+    
+}
+
+#pwdRecoveryForm{
+	background-color: #99CCCC;
+	height: 600px;
+	width: 600px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	opacity: 0.8;
+}

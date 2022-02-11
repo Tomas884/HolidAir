@@ -1,0 +1,168 @@
+body {
+background-color:#CCCCCC;
+background-attachment:fixed;
+}
+
+header{
+width: 1200px;
+height:100px;
+background-color:#009966;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+}
+
+footer {
+width: 1200px;
+height: 30px;
+background-color:#009966;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+#headerText {
+position: absolute;
+top:5px;
+right:600px;
+font-size:40px;
+}
+
+#bookingArea {
+width: 1200px;
+height: 500px;
+background-color:#009966;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+#copyrightText {
+position: absolute;
+top:650px;
+left: 100px;
+}
+
+#bookingHotelFormArea {
+position:absolute;
+background-color:#FFFFFF;
+width:1000px;
+height:400px;
+top:200px;
+left:170px;
+border-bottom-right-radius:10px;
+border-bottom-left-radius:10px;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+}
+
+#hotelBookingHeading {
+position:absolute;
+top:2px;
+left: 100px;
+}
+
+#checkInDateLbl {
+position: absolute;
+top:80px;
+left:100px;
+}
+
+#checkOutDateLbl {
+position:absolute;
+top:200px;
+left:100px;
+}
+
+#HolidayCheckInCalendar {
+position:absolute;
+top:110px;
+left:95px;
+}
+
+#HolidayCheckOutCalendar {
+position:absolute;
+top:230px;
+left:95px;
+}
+
+#checkInTimeLbl {
+position:absolute;
+top:80px;
+left:500px;
+}
+
+#checkOutTimeLbl {
+position:absolute;
+top:200px;
+left:500px;
+}
+
+#HotelCheckInTimeHoursOptions {
+position:absolute;
+top:110px;
+left:400px;
+}
+
+#HotelCheckInTimeMinutesOptions {
+position:absolute;
+top:110px;
+left:510px;
+}
+
+#HotelCheckInTimeAmPmOptions {
+position:absolute;
+top:110px;
+left:630px;
+}
+
+#HotelCheckOutTimeHoursOptions {
+position:absolute;
+top:230px;
+left:400px;
+}
+
+#HotelCheckOutTimeMinutesOptions {
+position:absolute;
+top:230px;
+left:510px;
+}
+
+#HotelCheckOutTimeAmPmOptions {
+position:absolute;
+top:230px;
+left:630px;
+}
+
+#adultsStayingLbl {
+position:absolute;
+top:270px;
+left:350px;
+}
+
+#childrenStayingLbl {
+position:absolute;
+top:270px;
+left:570px;
+}
+
+#adultsNumbSelect {
+position:absolute;
+top:300px;
+left:340px;
+}
+
+#childrenNumbSelect {
+position:absolute;
+top:300px;
+left:570px;
+}
+
+#bookNowBtn {
+position:absolute;
+top:350px;
+left:450px;
+}

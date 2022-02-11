@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Nov-2020, 21:00:36
+    Author     : tomas
+*/
+body{
+background:url("Yq6ObbTP-1380x690.jpeg");
+	background-attachment:fixed;
+}
+
+header{
+width:1200px;
+	height:140px;
+	background-color:#FFFF00;
+	opacity:0.6;
+}
+
+#wrapperTxt{
+display:inline;
+	float:left;
+	padding:left;
+	padding-left:20px;
+	font-size:40px;
+}
+
+
+#wrapperComponents{
+
+        position:relative;
+	left:110px;
+        top:30px;
+	
+}
+
+
+#wrapperHyperlink{
+position:relative;
+	right:-110px;
+	top:50px;
+}
+#showPwdCheckBox{
+    position: relative;
+    top:40px;
+    left:110px;
+}
+
+#contentArea{
+width:1200px;
+	height:500px;
+	background-color:#CCFFFF;
+	opacity:0.6;
+	
+}
+
+
+#copyrightArea{
+width:1200px;
+	height:40px;
+	background-color:#3366FF;
+	opacity:0.6;
+}
+
+#copyrightTxt{
+position: absolute;
+top:677px;
+left:100px;
+}
+
+#locations{
+width:250px;
+height:150px;
+position:absolute;
+top:250px;
+left:150px;
+}
+
+#hotels{
+position:absolute;
+width:250px;
+height:150px;
+top:250px;
+left:500px;
+}
+
+#cars{
+position:absolute;
+width:250px;
+height:150px;
+top:250px;
+left:850px;
+}
+
+#aboutHyperlink {
+position:absolute;
+top:140px;
+left:140px;
+}

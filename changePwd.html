@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>HolidAir: Change Password</title>
+		<link href="css/changePwdStyle.css" rel="stylesheet" type="text/css" />
+		<script src="js/changePwdValidation.js"></script>
+		
+		<center>
+		<body>
+		<br /><br />
+		<div id="changeUidText">Change Password</div>
+		<div class="main">
+		<div class="container">
+		
+		<br />
+		<div id="changePwdForm">
+		<div class="main">
+		<div class="container">
+		<form name="changePwdForm" action="php/changePwd.inc.php" onsubmit="return validateForm()" method="POST">
+		<br />
+		
+				</center>
+		</body>
+		<div id="uidTxtFld"><input type="text" id="uid" name="uid" placeholder="Username"></div>
+		<div id="pwdTxtFld"><input type="password" id="pwd" name="pwd" placeholder="Old Password"></div>
+		<div id="newPwdTxtFld"><input type="password" id ="newPwd" name="newPwd" placeholder="New Password"></div>
+		<div id="rptPwdTxtFld"><input type="password" id ="rptNewPwd" name="rptNewPwd" placeholder="Repeat New Password"></div>
+		<div id="changePwdButton"><button type="submit" name="changePwd">Change Password</button></div>
+</form>
+    </head>
+    
+</html>
